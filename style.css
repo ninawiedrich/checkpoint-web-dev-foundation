@@ -1,0 +1,178 @@
+/* General Stylings */
+
+* {
+  box-sizing: border-box;
+}
+
+* {
+  font-family: "Montserrat", sans-serif;
+  color: #6a1cc3;
+}
+
+body {
+  max-width: 600px;
+  min-height: 100vh;
+  margin: 0 auto;
+  background-color: #fbfbfb;
+  border: 1px solid black;
+}
+
+h1 {
+  margin: 0;
+  font-weight: 600;
+}
+
+.header {
+  background-color: #6a1cc3;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding-top: 3.5rem;
+  padding-left: 1.8rem;
+}
+
+.title {
+  color: white;
+  font-size: 1rem;
+  flex-grow: 1;
+  text-align: center;
+}
+
+.menu {
+  _margin: 0 2rem;
+  height: 3rem;
+  weight: 3rem;
+}
+
+.body {
+  padding: 0 2rem;
+}
+
+.students {
+  font-size: 18px;
+  padding-top: 2.56rem;
+  margin: 0;
+}
+
+.subtitle {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 14px;
+  padding-top: 0.5rem;
+  padding-bottom: 1.12rem;
+  margin: 0;
+  font-weight: 600;
+}
+
+body {
+  background: #f2f2f2;
+  font-family: "Open Sans", sans-serif;
+}
+
+.search {
+  width: 60%;
+  position: relative;
+  display: flex;
+  padding-top: 0.5rem;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 0.1rem solid #6a1cc3;
+  border-right: none;
+  padding: 5px;
+  height: 2.25rem;
+  border-radius: 0.1rem 0 0 0.1rem;
+  outline: none;
+  color: #4b148a;
+  font-weight: 600;
+}
+
+.searchTerm:focus {
+  color: #4b148a;
+}
+
+.searchButton {
+  width: 40px;
+  height: 2.25rem;
+  border: 0.1rem solid #6a1cc3;
+  background: white;
+  text-align: center;
+  color: black;
+  border-radius: 0 0.1rem 5px 0.1rem;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.wrap {
+  width: 100%;
+  position: absolute;
+  margin: 0;
+}
+
+.class {
+  width: 20rem;
+  height: 2.25rem;
+  border-radius: 0.12rem;
+  border: 1.75px solid #6a1cc3;
+  margin-top: 2rem;
+  font-weight: 600;
+  background-color: #fbfbfb;
+}
+
+.class-form {
+  width: 12rem;
+  height: 2.25rem;
+  border: 1.75px solid #6a1cc3;
+  border-radius: 0.12rem;
+  margin-right: 16px;
+  font-weight: 600;
+  background-color: #fbfbfb;
+}
+
+h3 {
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.6);
+  margin-top: 170px;
+}
+
+.member-list {
+  list-style: none;
+  padding-top: 0.1rem;
+  padding-left: 0;
+}
+
+.members {
+  border: 1.75px solid #6a1cc3;
+  border-radius: 2px;
+  box-shadow: 5px 3px #6a1cc3;
+  display: flex;
+  align-items: center;
+  padding: 0.81rem;
+  height: 4.26rem;
+  weight: 20rem;
+}
+
+.members-pic {
+  width: 2.43rem;
+  height: 2.43rem;
+  margin-right: 1.68rem;
+}
+
+.name-surname {
+  margin: 0;
+  color: #6a1cc3;
+  font-weight: 600;
+}
+
+.member-link {
+  font-size: 0.75rem;
+  font-weight: 400;
+}
+
+li:nth-child(1) {
+  margin-top: 1em;
+}
+
+.members + .members {
+  margin-top: 0.87rem;
+}
